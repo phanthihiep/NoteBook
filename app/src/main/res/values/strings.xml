@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NoteBook</string>
+    <string name="tv_show">Type show</string>
+    <string name="tv_setting">Setting</string>
 </resources>
