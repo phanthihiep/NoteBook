@@ -1,5 +1,6 @@
 package com.example.notebook
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -145,7 +146,7 @@ class MainActivity : AppCompatActivity(), IOnClickItem {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
+        when (item.itemId) {
             R.id.show -> {
                 isShowStagger = !isShowStagger
                 setAdapter()
