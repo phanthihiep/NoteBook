@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity(), IOnClickItem {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
+        when (item.itemId) {
             R.id.show -> {
                 isShowStagger = !isShowStagger
                 setAdapter()

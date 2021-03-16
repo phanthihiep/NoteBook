@@ -43,6 +43,7 @@ class NoteBookAdapter(private var list: ArrayList<Note>, var mOnclickItem: IOnCl
         holder.onBind(list[position])
         holder.itemView.setOnClickListener {
             mOnclickItem.onClickItem(list[position])
+
         }
     }
 }
