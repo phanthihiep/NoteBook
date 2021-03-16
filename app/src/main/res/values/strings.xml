@@ -2,4 +2,8 @@
     <string name="app_name">NoteBook</string>
     <string name="tv_show">Type show</string>
     <string name="tv_setting">Setting</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_content">Input content</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

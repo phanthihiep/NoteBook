@@ -17,10 +17,10 @@ class NoteBookAdapter(private var list: ArrayList<Note>, var mOnclickItem: IOnCl
             val layoutParams =
                 itemView.layout_item_out.layoutParams
             if (count < 100) {
-                layoutParams.height = 270
+                layoutParams.height = 290
                 itemView.layout_item_out.layoutParams = layoutParams
             } else {
-                layoutParams.height = 400
+                layoutParams.height = 430
                 itemView.layout_item_out.layoutParams = layoutParams
             }
 

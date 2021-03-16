@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="140dp">
 
-
         <ImageView
             android:id="@+id/img_bg"
             android:layout_width="wrap_content"
@@ -21,6 +20,8 @@
             android:scaleType="centerCrop" />
 
         <LinearLayout
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/tv_date"
             android:id="@+id/layout_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -28,12 +29,13 @@
             android:padding="10dp">
 
             <TextView
+                android:textStyle="bold"
                 android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 tools:text="Tilte" />
 
             <TextView
@@ -44,5 +46,15 @@
                 android:maxLines="5"
                 tools:text="Test content title note example into app" />
         </LinearLayout>
+
+        <TextView
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="20/3/2021"
+            android:textSize="@dimen/font_13"
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
